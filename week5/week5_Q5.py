@@ -56,3 +56,4 @@ with torch.no_grad():
         correct += (labels == argmax).sum().item()
     
     print(f'Test Acuuracy for {total} images: {((correct/total)*100):.2f}%')
+    print('Finish!!')
