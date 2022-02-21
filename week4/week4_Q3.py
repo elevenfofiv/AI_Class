@@ -14,4 +14,3 @@ col_round_6 = [11, 15, 13, 17, 19]
 df["round_6"] = col_round_6
 
 print(df.describe().loc[["mean", "max", "min"]])
-
